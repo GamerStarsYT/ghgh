@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,176,212,1) 11%, rgba(178,0,255,0.8668417195979954) 38%, rgba(149,0,214,1) 73%);
+    }
+  .c1{
+    background-color: transparent;
+    width: 110vh !important;
+    }
+    form{
+    width: 50vw;
+    height: 65vh;
+    background-color: white;
+    }
+    font{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    }
+    input{
+        border: none;
+        border-bottom: 2px solid rgb(172, 170, 170);
+        outline: none;
+        transition: 0.6s;
+    }
+    input:focus{
+        border-bottom: 2px solid #a4d4ea;
+
+    }
+    label{
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-bottom: -1px;
+        position: absolute;
+        transition: 0.6s;
+    }
+    label:hover{
+        margin-bottom: 15px;
+        font-size: 12px;
+        color: #a4d4ea;
+    }
+    #git{
+        position: absolute;
+        left: 403px;
+    }
+
+    
